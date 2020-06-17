@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 1rem 0;
+    height: 3rem;
+    padding: 0 1rem;
+}
+
+input[type="submit"] {
+    background: #470682;
+    color: #fff;
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.wrapper {
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.wrapper>div {
+    flex: 50%;
+    max-width: 50%;
+    margin: 2rem;
+}
